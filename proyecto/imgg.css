@@ -1,0 +1,15 @@
+﻿/* Estilo para las imágenes */
+img {
+    border: 5px solid white; /* Marco blanco alrededor de las imágenes */
+    margin: 10px; /* Espacio entre las imágenes */
+    width: 140px;
+    height: auto;
+}
+
+/* Organizar las imágenes en filas */
+body {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en varias filas */
+    justify-content: center; /* Centra las imágenes */
+    background-color: #ccc; /* Color de fondo */
+}

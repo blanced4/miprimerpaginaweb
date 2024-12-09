@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseña de Película</title>
+    <link rel="stylesheet" href="m1.1.css">
+    <style>
+        /* Ejemplo de position: absolute */
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            width: 200px;
+            height: 200px;
+            background-color: #f4a261; /* color café caqui */
+            border: 2px solid #d65e2e;
+        }
+
+        /* Ejemplo de position: fixed */
+        .fixed-box {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 150px;
+            height: 150px;
+            background-color: #f4a261; /* color café caqui */
+            border: 2px solid #d65e2e;
+        }
+
+        /* Ejemplo de position: sticky */
+        .sticky-box {
+            position: sticky;
+            top: 0;
+            background-color: #f4a261; /* color café caqui */
+            padding: 10px;
+            border: 2px solid #d65e2e;
+            z-index: 10;
+        }
+
+       
+
+        /* Estilo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .review-details {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+       
+        <div class="image-container">
+            <img src="m1.6.jpg" alt="Reseña principal">
+        </div>
+
+        <!-- Ejemplo de position: sticky -->
+        <div class="sticky-box">
+            <p>"Y en ese momento, juro que éramos infinitos."</p>
+        </div>
+        
+        <div class="review-details">
+            <h1>The Perks of Being a Wallflower</h1>
+            
+            <div class="stars">
+                ★ ★ ★ ★ <span class="half"></span>
+            </div>
+
+            <p class="fecha"> 21 de septiembre de 2012</p>
+
+            <blockquote>
+                "Nos aceptamos el uno al otro, como somos, y eso es lo que nos hace especiales."
+            </blockquote>
+
+            <p>
+                <h2> Reseña </h2> <br>
+                Charlie es un adolescente introvertido y sensible, que comienza su primer año de secundaria con la sensación de ser un observador más
+                que un participante. A lo largo de la historia, forma conexiones profundas con dos hermanos, Patrick y Sam, quienes lo introducen al
+                mundo de las fiestas, el amor y la autoaceptación.
+
+                La novela es un retrato realista de los altibajos emocionales que acompañan la adolescencia. Lo que hace que The Perks of Being a Wallflower
+                sea tan especial es su capacidad para tratar temas difíciles con una mezcla de ternura, humor y valentía. La narración epistolar le da a los 
+                lectores una visión íntima de la mente de Charlie, permitiéndoles sentir cada uno de sus momentos de angustia y felicidad.
+
+                Una de las frases más emblemáticas de la novela, “Somos infinitos”, resume perfectamente la sensación de libertad y descubrimiento que experimenta Charlie al aprender a aceptar quién es. La historia, aunque centrada en los retos de la juventud, resuena con personas de todas las edades, especialmente con aquellos que han vivido el proceso de crecer, enamorarse y enfrentarse a las dificultades personales.
+            </p>
+        
+        </div>
+
+       
+
+        <!-- Ejemplo de position: absolute -->
+        <div class="absolute-box">
+            <p>"No puedes besar a alguien solo porque lo desees. No es tan simple. No se trata solo de lo que tú quieras, también se trata de cómo se siente la otra persona. "</p>
+        </div>
+
+        <!-- Ejemplo de position: fixed -->
+        <div class="fixed-box">
+            <p>"Aceptamos el amor que creemos que merecemos.". </p>
+        </div>
+        
+        <h2>Tráiler</h2>
+        <div class="trailer">
+            <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/C-UZT1jw-iE" 
+                    title="Tráiler" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+
+</body>
+</html>

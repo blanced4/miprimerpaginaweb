@@ -1,0 +1,25 @@
+﻿/* Fondo gris para toda la página */
+body {
+    background-color: #f0f0f0; /* Color gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo gris para el contenedor de la reseña */
+.container {
+    background-color: #e0e0e0; /* Gris más oscuro */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilos para las estrellas */
+.star {
+    color: gold;
+    font-size: 24px; /* Ajusta el tamaño de la estrella */
+}
+
+.half {
+    color: lightgray; /* Estrella vacía */
+    font-size: 24px;
+}

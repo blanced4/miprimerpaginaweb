@@ -1,0 +1,83 @@
+﻿body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina márgenes del cuerpo */
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina márgenes del cuerpo */
+    padding: 0; /* Elimina padding del cuerpo */
+}
+
+.image-container {
+    margin: 0; /* Elimina márgenes alrededor del contenedor */
+    padding: 0; /* Elimina padding del contenedor */
+    position: relative; /* Asegura que la imagen se ajuste correctamente */
+    top: 0; /* Coloca la imagen en la parte superior */
+}
+
+.image-container img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho */
+    display: block;
+    margin: 0; /* Elimina márgenes alrededor de la imagen */
+    padding: 0; /* Asegura que no haya espacio adicional */
+    position: relative; /* La imagen se posiciona dentro de su contenedor */
+}
+
+.review-details h1 {
+    font-size: 1.8em;
+    margin: 20px 0 0; /* Añade espacio solo encima del texto */
+    text-align: center;
+}
+
+.stars {
+    text-align: center;
+    color: #00FF00;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.stars .half {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+/* Fecha */
+.date {
+    text-align: center;
+    font-size: 0.9em;
+    color: #b3b3b3;
+    margin: 5px 0 15px;
+}
+
+/* Cita destacada */
+blockquote {
+    font-style: italic;
+    color: #b3b3b3;
+    text-align: center;
+    margin: 20px 0;
+    border-left: 4px solid #00FF00;
+    padding-left: 10px;
+}
+
+/* Texto de la crítica */
+.review-details p {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 0;
+}

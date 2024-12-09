@@ -1,0 +1,56 @@
+﻿/* Estilo general de la galería */
+body {
+    background-color: #FFA500; /* Fondo naranja */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal de la galería */
+.gallery-container {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título de la galería */
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la galería de imágenes */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crear columnas automáticas con un mínimo de 250px */
+    gap: 20px; /* Espacio entre las imágenes */
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Estilo para cada imagen */
+.image-item img {
+    width: 100%; /* Las imágenes ocuparán todo el espacio disponible en su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transición para el efecto de zoom */
+}
+
+/* Efecto de zoom al pasar el ratón sobre la imagen */
+.image-item img:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la imagen */
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Reducir el tamaño mínimo de las columnas */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+}

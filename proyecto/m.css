@@ -1,0 +1,32 @@
+﻿/* Fondo gris para la página */
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Animación para la imagen */
+@keyframes fadeInImage {
+    0% {
+        opacity: 0;
+        transform: scale(0.8); /* Comienza más pequeña */
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); /* Tamaño normal al final */
+    }
+}
+
+/* Aplicando la animación a la imagen */
+.image-container img {
+    animation: fadeInImage 2s ease-in-out;
+}
+
+/* Fondo gris para el contenedor de la imagen */
+.image-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    display: inline-block; /* Para que la imagen esté centrada */
+}

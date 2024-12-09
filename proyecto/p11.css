@@ -1,0 +1,50 @@
+﻿
+
+
+header {
+    text-align: center;
+    padding: 1rem; 
+    color: black;
+    font-size: 3rem; /* Aumenta el tamaño del texto del encabezado */
+    font-weight: bold;/* controla el grosor de la fuente y el bold es la letra en negrita */
+    margin-top: -6rem; /* Mueve el encabezado más cerca de la parte superior */
+}
+main {
+    text-align: center; /* Centra el texto dentro del elemento */
+    padding: 3rem; /* Añade un espacio de relleno de 3 rem (unidades relativas al tamaño de la fuente raíz) dentro del elemento */
+    border-radius: 10px; /* Redondea las esquinas del borde del elemento con un radio de 10 píxeles */
+    color: black; /* Establece el color del texto a negro */
+    margin: auto; /* Centra el elemento en su contenedor (horizontal y vertical) */
+    font-size: 1.2rem; /* Establece el tamaño de la fuente en 1.2 rem */
+    max-width: 600px; /* Establece el ancho máximo del elemento a 600 píxeles */
+    position: relative; /* Establece el sistema de posicionamiento como relativo, lo que permite mover el elemento */
+    top: -3rem; /* Mueve el elemento 3 rem hacia arriba desde su posición original */
+}
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 2rem; /* Espacio entre los botones */
+    margin-top: 30px;
+}
+/* Estilo de los botones como cajas */
+.button.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Ancho fijo para las cajas */
+    height: 60px; /* Altura fija */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+}
+/* Efecto de hover en los botones */
+.button.box:hover {
+    background-color: #e03e00; /* Color de fondo más oscuro */
+    transform: scale(1.1); /* Hace el botón un poco más grande al pasar el mouse */
+}
+
